@@ -440,3 +440,8 @@ a {
   width: 15px;
   height: 15px;
 }
+
+.TalentImage {
+  position: relative;
+  left: 220px;
+}
