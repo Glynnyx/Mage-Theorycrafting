@@ -15,6 +15,7 @@ html {
 
 body {
   height: 100%;
+  background-color: #212529
 }
 
 #wrapper {
@@ -136,7 +137,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 
 .sidebar {
   width: 90px !important;
-  background-color: #212529;
+  background-color: rgb(46, 51, 56);
   min-height: calc(100vh - 56px);
 }
 
@@ -148,6 +149,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   text-align: center;
   padding: 0.75rem 1rem;
   width: 90px;
+  color: white !important 
 }
 
 .sidebar .nav-item .nav-link span {
@@ -257,6 +259,18 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   transform: rotate(15deg);
 }
 
+
+.card-header {
+  /* background-color: rgb(212, 212, 212); */
+  background-color: rgb(89, 173, 204);
+  color: white;
+}
+
+.card-body {
+    background-color: rgb(46, 51, 56);
+    color: white;
+}
+
 @media (min-width: 576px) {
   .card-columns {
     -webkit-column-count: 1;
@@ -354,7 +368,8 @@ footer.sticky-footer {
   bottom: 0;
   width: calc(100% - 90px);
   height: 80px;
-  background-color: #e9ecef;
+  background-color: #212529;
+  color: white;
 }
 
 footer.sticky-footer .copyright {
@@ -406,3 +421,22 @@ element.style {
   margin: 0px;
 }
 
+
+.breadcrumb {
+  background-color: rgb(89, 173, 204);
+  color: white;
+}
+
+.breadcrumb-item.active {
+  background-color: rgb(89, 173, 204);
+  color: white
+}
+
+a {
+  color: white
+}
+
+.spell_icon {
+  width: 15px;
+  height: 15px;
+}
