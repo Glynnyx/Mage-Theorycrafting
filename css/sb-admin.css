@@ -368,14 +368,17 @@ footer.sticky-footer {
   right: 0;
   bottom: 0;
   width: calc(100% - 90px);
-  height: 80px;
-  background-color: #212529;
+  height: 50px;
+  /* background-color: ; */
   color: white;
+  /* background-color: red; */
+  text-align: center;
+  
 }
 
 footer.sticky-footer .copyright {
   line-height: 1;
-  font-size: 0.8rem;
+  font-size: 1 rem;
 }
 
 @media (min-width: 768px) {
@@ -446,3 +449,7 @@ a {
 /* .breadcrumb {
   outline: 1px solid white
 } */
+
+.MageIcon {
+  text-align: right
+}
