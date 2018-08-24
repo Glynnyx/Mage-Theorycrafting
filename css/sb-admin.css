@@ -453,3 +453,25 @@ a {
 .MageIcon {
   text-align: right
 }
+
+
+.dropdown-item {
+  background-color: rgb(33, 37, 41);
+  color: white;
+}
+
+.sidebar .nav-item .dropdown-menu {
+  background-color: transparent;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(89, 173, 204);
+}
+
+.sidebar .nav-item .dropdown-menu {  
+  /* background-color: rgb(33, 37, 41); */
+}
+
+.dropdown-menu {
+  border: transparent;
+}
