@@ -10,3 +10,5 @@ There are plans to add further things to the website such as:
 * Blog Posts
 * Fire & Arcane Guides
 * More Simulation Resources.
+
+Website Link: https://glynnyx.github.io/Mage-Theorycrafting/
