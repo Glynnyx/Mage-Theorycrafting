@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-sb-admin/blob/master/LICENSE)
  */
 
+ 
 .bg-dark {
   background-color: rgb(89, 173, 204) !important;
 }
@@ -261,7 +262,6 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 
 
 .card-header {
-  /* background-color: rgb(212, 212, 212); */
   background-color: rgb(89, 173, 204);
   color: white;
 }
@@ -439,9 +439,38 @@ a {
 .spell_icon {
   width: 15px;
   height: 15px;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.TalentImage {
-  position: relative;
-  left: 220px;
+.card-header img {
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* .card-body img {
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+} */
+
+.card {
+  background-color: rgb(46, 51, 56);
+}
+
+.card-header2nd {
+  background-color: rgb(46, 51, 56);
+  color: white;
+}
+
+
+.card-header2nd img {
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.card {
+  background-color: rgb(33, 37, 41)
 }
