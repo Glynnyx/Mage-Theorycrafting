@@ -7,6 +7,7 @@
  
 .bg-dark {
   background-color: rgb(89, 173, 204) !important;
+  border-bottom: 1px solid white
 }
 
 html {
@@ -325,7 +326,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   /* Override default `<label>` margin */
   line-height: 1.5;
   color: #495057;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 0.25rem;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
@@ -395,8 +396,7 @@ body.sidebar-toggled footer.sticky-footer {
 
 .btn-primary {
   color: rgb(255, 255, 255);
-  background-color: rgb(89, 173, 204) !important;;
-  /* border-color: black; */
+  background-color: rgb(89, 173, 204) !important;
 }
 
 
@@ -443,34 +443,6 @@ a {
   padding: 0 !important;
 }
 
-.card-header img {
-  margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
-/* .card-body img {
-  margin-left: auto;
-	margin-right: auto;
-	display: block;
+/* .breadcrumb {
+  outline: 1px solid white
 } */
-
-.card {
-  background-color: rgb(46, 51, 56);
-}
-
-.card-header2nd {
-  background-color: rgb(46, 51, 56);
-  color: white;
-}
-
-
-.card-header2nd img {
-  margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
-.card {
-  background-color: rgb(33, 37, 41)
-}
