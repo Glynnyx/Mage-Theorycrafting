@@ -361,19 +361,17 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 }
 
 footer.sticky-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
   position: absolute;
   right: 0;
   bottom: 0;
   width: calc(100% - 90px);
   height: 50px;
-  /* background-color: ; */
   color: white;
-  /* background-color: red; */
-  text-align: center;
-  
+  margin: auto 0;
+ 
 }
 
 footer.sticky-footer .copyright {
@@ -446,10 +444,6 @@ a {
   padding: 0 !important;
 }
 
-/* .breadcrumb {
-  outline: 1px solid white
-} */
-
 .MageIcon {
   text-align: right
 }
@@ -465,13 +459,52 @@ a {
 }
 
 .dropdown-item:hover {
-  background-color: rgb(89, 173, 204);
-}
-
-.sidebar .nav-item .dropdown-menu {  
-  /* background-color: rgb(33, 37, 41); */
+  background-color: rgb(33, 37, 41);
+  outline: 2px solid rgb(89, 173, 204);
+  color:  rgb(89, 173, 204);
 }
 
 .dropdown-menu {
   border: transparent;
 }
+
+.Seperator {
+  margin-left: 17px;
+  margin-right: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  background-color: white
+}
+
+
+.btn-danger {
+  background-color: rgb(89, 173, 204);
+  padding-left: 10px;
+  border-color: transparent;
+}
+
+.btn-danger:hover {
+  background-color: rgb(89, 173, 204);
+  padding-left: 10px;
+  border-color: transparent;
+  color: black
+
+}
+
+.btn-danger.focus, .btn-danger:focus {
+  -webkit-box-shadow: none;
+  background-color: rgb(89, 173, 204);
+}
+
+.btn-danger:active {
+  padding-left: 10px;
+  border-color: white;
+}
+
+.btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled):active, .show>.btn-danger.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(89, 173, 204);
+  border-color: white;
+}
+
