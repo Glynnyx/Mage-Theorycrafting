@@ -508,3 +508,11 @@ a {
   border-color: white;
 }
 
+
+.OverviewLI {
+  color: white
+}
+
+.OverviewLI:hover {
+  color: rgb(89, 173, 204);
+}
